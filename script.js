@@ -6,10 +6,11 @@ const senhaDefinida = '123456';
 const emailDefinido = 'tryber@teste.com';
 const senha = document.getElementById('password');
 const email = document.getElementById('email');
-const botaoEntrar = document.getElementsByClassName('entrar');
+const botaoEntrar = document.querySelector('.entrar');
+console.log(botaoEntrar);
 
 function entrar() {
-  if (email === emailDefinido && senha === senhaDefinida) {
+  if (email.value === emailDefinido && senha.value === senhaDefinida) {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
