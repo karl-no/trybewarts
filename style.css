@@ -59,3 +59,14 @@ input #input-lastname {
   flex-direction: row;
 }
 
+button {
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
