@@ -59,7 +59,7 @@ input #input-lastname {
   flex-direction: row;
 }
 
-.house{
+.house {
   display: inline;
   flex-direction: row;
 }
