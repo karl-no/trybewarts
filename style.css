@@ -57,11 +57,9 @@ header {
 
 input #checkContent {
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 input .rate {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
