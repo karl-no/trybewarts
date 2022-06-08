@@ -52,11 +52,19 @@ header {
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-left: 700px;
 }
 
-input #input-lastname {
+.box input {
   display: flex;
   flex-direction: row;
+  width: 30%;
+}
+
+.requerimento {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
 }
 
 #submit-btn {
@@ -68,5 +76,13 @@ input #input-lastname {
 
 footer {
   display: flex;
+  flex-direction: row;
+  align-content: flex-end;
   justify-content: center;
+  border: 1px solid black;
+}
+
+p #direitos {
+  display: flex;
+  flex-direction: row;
 }
