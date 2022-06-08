@@ -59,7 +59,7 @@ input #input-lastname {
   flex-direction: row;
 }
 
-button {
+#submit-btn {
   background-color: blue;
   color: white;
   font-size: 30px;
