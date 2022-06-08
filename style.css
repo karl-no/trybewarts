@@ -49,3 +49,19 @@ header {
   flex-direction: column;
   width: 675px;
 }
+
+#label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+input #checkContent {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input .rate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

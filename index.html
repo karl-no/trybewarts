@@ -15,12 +15,61 @@
             <input type="email" name="email" placeholder="Email" id="email">
             <input type="password" name="password" placeholder="Senha" id="password">
             <button type="submit" class="entrar">Entrar</button>
-            <!-- <input type="button" value="Entrar" class="entrar"> -->
+            
         </form>
     </header>
+
     <main class="formulario-main">
         <form action="" method="get" id="evaluation-form">
+            
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?
+                <input type="checkbox" class="subject" name="hofs" value="HoFs" id="checkContent">HoFs
+                <input type="checkbox" class="subject" name="jest" value="Jest" id="checkContent">Jest
+                <input type="checkbox" class="subject" name="promises" value="Promises" id="checkContent">Promises
+                <input type="checkbox" class="subject" name="react" value="React" id="checkContent">React
+                <input type="checkbox" class="subject" name="sql" value="SQL" id="checkContent">SQL
+                <input type="checkbox" class="subject" name="python" value="Python" id="checkContent">Python
+            </label>
 
+            <label for="" id="label-rate">Como você avalia a Trybewarts?
+                <label for="nota1">
+                    <input type="radio" name="rate" value="1" id="nota1" class="rate">1
+                </label>
+                <label for="nota2">
+                    <input type="radio" name="rate" value="2" id="nota2" class="rate">2
+                </label>
+                <label for="nota3">
+                    <input type="radio" name="rate" value="3" id="nota3" class="rate">3
+                </label>
+                <label for="nota4">
+                    <input type="radio" name="rate" value="4" id="nota4" class="rate">4
+                </label>
+                <label for="nota5">
+                    <input type="radio" name="rate" value="5" id="nota5" class="rate">5
+                </label>
+                <label for="nota6">
+                    <input type="radio" name="rate" value="6" id="nota6" class="rate">6
+                </label>
+                <label for="nota7">
+                    <input type="radio" name="rate" value="7" id="nota7" class="rate">7
+                </label>
+                <label for="nota8">
+                    <input type="radio" name="rate" value="8" id="nota8" class="rate">8
+                </label>
+                <label for="nota9">
+                    <input type="radio" name="rate" value="9" id="nota9" class="rate">9
+                </label>
+                <label for="nota10">
+                    <input type="radio" name="rate" value="10" id="nota10" class="rate">10
+                </label>
+            </label>
+
+            <label for="" class="textarea">Deixe seu comentário:</label>
+            <textarea name="txt-area" id="textArea" maxlength="500" cols="30" rows="7"></textarea>
+
+            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
+                <input type="checkbox" name="agreement-info" id="agreement" required>
+            </label>
         </form>
     </main>
     <script src="script.js"></script>
