@@ -40,7 +40,7 @@ header {
   font-size: medium;
 }
 
-.formularion-main {
+.formulario-main {
   display: flex;
 }
 
@@ -52,5 +52,14 @@ header {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#sobrenome {
   display: flex;
+  flex-direction: row;
+}
+
+.house{
+  display: inline;
+  flex-direction: row;
 }
