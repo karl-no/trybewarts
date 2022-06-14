@@ -7,7 +7,6 @@ const emailDefinido = 'tryber@teste.com';
 const senha = document.getElementById('password');
 const email = document.getElementById('email');
 const botaoEntrar = document.querySelector('.entrar');
-console.log(botaoEntrar);
 
 function entrar() {
   if (email.value === emailDefinido && senha.value === senhaDefinida) {
@@ -18,3 +17,18 @@ function entrar() {
 }
 
 botaoEntrar.addEventListener('click', entrar);
+
+// Requisito 18
+const botaoEnviar = document.getElementById('submit-btn');
+botaoEnviar.disabled = true;
+const agreement = document.querySelector('#agreement');
+
+agreement.addEventListener('input', () => {
+  const valor = agreement.value;
+
+  if (valor !== null && valor !== '') {
+    botaoEnviar.disabled = false;
+  } else {
+    botaoEnviar.disabled = true;
+  }
+});
