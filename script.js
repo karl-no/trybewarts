@@ -28,6 +28,7 @@ agreement.addEventListener('input', () => {
 
   if (valor !== null && valor !== '') {
     botaoEnviar.disabled = false;
+    botaoEnviar.style.backgroundColor = 'rgb(79, 79, 145)';
   } else {
     botaoEnviar.disabled = true;
   }
